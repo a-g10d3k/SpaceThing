@@ -1,0 +1,13 @@
+-add a power system to the ships //done except for power storage
+-add a cpu cap for the ships //done
+-add a power generator pixel to the ships //done
+-add a CommandModule pixel to the ships (it will provide cpu cap) //done
+-add a functionality to deactivate/activate ship systems // done
+-make an actual UI and the ability to stop shooting/stop your ship // stopping your ship done
+-make an AI for enemy/friendly ships  //done
+-make simple graphics for different pixels instead of just having them be different colors
+-make ships more maneuverable at max speed
+-right now destroying all power generators on a ship calls OnDestroyCommandModule() and it should do something different, implement that
+-change the equation for the velocity of a pixel that's been destroyed so that it looks cooler
+
+(Report a bug to unity - if you compare an object to null using its interface, it doesnt return null even tho it was destroyed)
